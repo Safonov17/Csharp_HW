@@ -10,4 +10,4 @@ Console.Clear();
 Console.WriteLine("Введите число: ");
     string num = Console.ReadLine();
     string rev = string.Concat(num.Reverse());
-    Console.WriteLine(num == rev ? $"Число {num} - палиндром" : $"Число {num} - не палиндром");ЁЁ
+    Console.WriteLine(num == rev ? $"Число {num} - палиндром" : $"Число {num} - не палиндром");
