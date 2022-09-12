@@ -7,7 +7,7 @@
 */
 Console.Clear();
 Console.Write("Введите число: ");
-int num = int.Parse(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 int numAbs = Math.Abs(num);
 string numAbsTxt = Convert.ToString(numAbs);
 

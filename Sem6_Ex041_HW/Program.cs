@@ -6,13 +6,13 @@
 Console.Clear();
 
 Console.Write("Введите количество элементов массива: ");
-int size = int.Parse(Console.ReadLine());
+int size = Convert.ToInt32(Console.ReadLine());
 int[] array = new int[size];
 int count = 0;
 
 for (int i = 0; i < array.Length; i++) {
     Console.Write($"Введите элемент массива под индексом {i}: ");
-    array[i] = int.Parse(Console.ReadLine());
+    array[i] = Convert.ToInt32(Console.ReadLine());
 }
 
 Console.Clear();

@@ -4,9 +4,9 @@
 Console.Clear();
 
 Console.Write("Укажите количество строк в массиве: ");
-int rows = int.Parse(Console.ReadLine());
+int rows = Convert.ToInt32(Console.ReadLine());
 Console.Write("Укажите количество столбцов в массиве: ");
-int columns = int.Parse(Console.ReadLine());
+int columns = Convert.ToInt32(Console.ReadLine());
 
 double[,] array = new double[rows, columns];
 FillArray(array);

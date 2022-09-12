@@ -1,7 +1,7 @@
 ﻿Console.Clear();
 Console.WriteLine("Программа для нахождения всех четных чисел от 1 до num");
 Console.Write("Введите число: ");
-int num = int.Parse(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 
 if (num < 1) {
     Console.WriteLine("Ошибка. Введите целое положительное число, начиная с 1");

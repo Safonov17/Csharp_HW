@@ -8,7 +8,7 @@
 */
 Console.Clear();
 Console.Write("Введите значение радиуса круга: ");
-int rad = int.Parse(Console.ReadLine());
+int rad = Convert.ToInt32(Console.ReadLine());
 int max = 0;
 
 // Находим значение площади круга по формуле

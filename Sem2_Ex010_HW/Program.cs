@@ -7,7 +7,7 @@
 */
 Console.Clear();
 Console.Write("Введите трехзначное число: ");
-int num = int.Parse(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 int numAbs = Math.Abs(num);
 
 if (numAbs < 100 || numAbs > 999) {

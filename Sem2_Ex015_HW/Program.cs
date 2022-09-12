@@ -7,7 +7,7 @@
 */
 Console.Clear();
 Console.Write("Введите цифру: ");
-int day = int.Parse(Console.ReadLine());
+int day = Convert.ToInt32(Console.ReadLine());
 
 
 if (day > 0 && day < 8) {
